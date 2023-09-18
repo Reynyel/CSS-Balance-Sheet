@@ -19,3 +19,27 @@ span[class~="sr-only"]{
     padding: 0;
     margin: -1px;
 }
+
+/*Styling table heading*/
+h1{
+    max-width: 37.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+}
+
+h1 .flex{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+/*Targets the first span selector*/
+h1 .flex span:first-of-type{
+    font-size: 0.7em;
+}
+
+/*Targets the last element that matches the selector*/
+h1 .flex span:last-of-type{
+    font-size: 1.2em;
+}
+
